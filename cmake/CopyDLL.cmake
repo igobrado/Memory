@@ -1,0 +1,8 @@
+function(COPY_DLL arg1)
+    set(COMPILER_ID ${arg1})
+    file(GLOB files "${CMAKE_CURRENT_LIST_DIR}/Dependencies/SFML/${COMPILER_ID}/bin/*.dll")
+    message("Copying DLL files from ${CMAKE_CURRENT_LIST_DIR}/Dependencies/SFML/${COMPILER_ID}/bin to ${CMAKE_BINARY_DIR}")
+    foreach (DLL ${files})
+        file(COPY ${DLL} DESTINATION ${CMAKE_BINARY_DIR})
+    endforeach ()
+endfunction()

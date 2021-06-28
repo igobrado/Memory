@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Config>
+    <Intro>
+
+        <Component Type="Label"
+                   Name="Welcome"
+                   Text="Memory match game"
+                   PosX="300"
+                   PosY="100"
+                   Width="200"
+                   Height="30"
+                   FontSize="30"
+                   OutlineThickness="3"
+        />
+
+        <Component Type="Label"
+                   Name="PlayerName"
+                   Text="Player name"
+                   PosX="500"
+                   PosY="420"
+                   Width="100"
+                   Height="30"
+                   FontSize="30"
+                   OutlineThickness="3"
+        />
+
+        <Component Type="Textbox"
+                   Name="PlayerName"
+                   PosX="500"
+                   PosY="475"
+                   Width="160"
+                   Height="30"
+                   FontSize="20"
+                   OutlineThickness="3"
+        />
+
+        <Component Type="Button"
+                   Name="InsertPlayer"
+                   Text="Insert"
+                   PosX="680"
+                   PosY="475"
+                   Width="70"
+                   Height="30"
+                   FontSize="20"
+                   OutlineThickness="3"
+        />
+
+        <Component Type="Button"
+                   Name="OKButton"
+                   Text="Start game"
+                   PosX="400"
+                   PosY="800"
+                   Width="115"
+                   Height="30"
+                   FontSize="20"
+                   OutlineThickness="3"
+        />
+
+        <!-- Board width label, negative counter and positive counter -->
+        <Component Type="Label"
+                   Name="BoardWidth"
+                   Text="Board width"
+                   PosX="100"
+                   PosY="300"
+                   Width="100"
+                   Height="60"
+                   FontSize="30"
+                   OutlineThickness="3"
+        />
+
+        <Component Type="Counter"
+                   Name="BoardWidthIncreaser"
+                   Text="+"
+                   PosX="411"
+                   PosY="300"
+                   Width="40"
+                   Height="40"
+                   FontSize="30"
+                   OutlineThickness="3"
+                   ResponsibleLabelName="BoardWidthCount"
+        />
+
+        <Component Type="Counter"
+                   Name="BoardWidthDecreaser"
+                   Text="-"
+                   PosX="298"
+                   PosY="300"
+                   Width="40"
+                   Height="40"
+                   FontSize="30"
+                   OutlineThickness="3"
+                   ResponsibleLabelName="BoardWidthCount"
+        />
+
+        <Component Type="Label"
+                   Name="BoardWidthCount"
+                   Text="4"
+                   PosX="352"
+                   PosY="300"
+                   Width="100"
+                   Height="60"
+                   FontSize="30"
+                   OutlineThickness="3"
+        />
+
+        <!-- Board height label, negative counter and positive counter -->
+        <Component Type="Label"
+                   Name="BoardHeight"
+                   Text="Board height"
+                   PosX="100"
+                   PosY="600"
+                   Width="100"
+                   Height="60"
+                   FontSize="30"
+                   OutlineThickness="3"
+        />
+
+        <Component Type="Label"
+                   Name="OnePLayerError"
+                   Text="You must insert at least one player with correct name"
+                   PosX="100"
+                   PosY="510"
+                   Width="500"
+                   Height="60"
+                   FontSize="30"
+                   OutlineThickness="3"
+        />
+
+        <Component Type="Label"
+                   Name="BoardIncompatibleError"
+                   Text="Width * Height must be even"
+                   PosX="80"
+                   PosY="475"
+                   Width="500"
+                   Height="60"
+                   FontSize="30"
+                   OutlineThickness="3"
+        />
+
+        <Component Type="Counter"
+                   Name="BoardHeightIncreaser"
+                   Text="+"
+                   PosX="411"
+                   PosY="600"
+                   Width="40"
+                   Height="40"
+                   FontSize="30"
+                   OutlineThickness="3"
+                   ResponsibleLabelName="BoardHeightCount"
+        />
+
+        <Component Type="Counter"
+                   Name="BoardHeightDecreaser"
+                   Text="-"
+                   PosX="295"
+                   PosY="600"
+                   Width="40"
+                   Height="40"
+                   FontSize="30"
+                   OutlineThickness="3"
+                   ResponsibleLabelName="BoardHeightCount"
+        />
+
+        <Component Type="Label"
+                   Name="BoardHeightCount"
+                   Text="4"
+                   PosX="350"
+                   PosY="600"
+                   Width="100"
+                   Height="60"
+                   FontSize="30"
+                   OutlineThickness="3"
+        />
+
+
+
+
+    </Intro>
+
+    <End>
+        <Component Type="Button"
+                   Name="RestartGame"
+                   Text="Restart game"
+                   PosX="370"
+                   PosY="800"
+                   Width="135"
+                   Height="30"
+                   FontSize="20"
+                   OutlineThickness="3"
+        />
+    </End>
+</Config>

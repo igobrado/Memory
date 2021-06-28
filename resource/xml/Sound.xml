@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Sounds>
+  <Game>
+    <Sound Buffer = "../resource/sound/hits/click.wav"
+           Name = "click"
+    />
+    <Sound Buffer = "../resource/sound/hits/flip.wav"
+           Name = "flip"
+    />
+
+    <Sound Buffer = "../resource/sound/hits/music.ogg"
+           Name = "music"
+    />
+  </Game>
+</Sounds>
+

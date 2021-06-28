@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Fonts>
+  <Classic>
+    <FontID Font = "../resource/fonts/MyFont.ttf"
+            Name = "MyFont"
+    />
+  </Classic>
+</Fonts>

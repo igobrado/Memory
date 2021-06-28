@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Textures>
+    <Cards>
+        <Card Texture="../resource/images/cards/jack.png"
+              Name="Jack"
+        />
+        <Card Texture="../resource/images/cards/queen.png"
+              Name="Queen"
+        />
+        <Card Texture="../resource/images/cards/king.png"
+              Name="King"
+        />
+        <Card Texture="../resource/images/cards/ace.png"
+              Name="Ace"
+        />
+        <Card Texture="../resource/images/cards/card_background.png"
+              Name="CardBackground"
+        />
+    </Cards>
+
+    <Backgrounds>
+        <Background Texture="../resource/images/background/background.jpg"
+                    Name="Background"
+        />
+    </Backgrounds>
+
+</Textures>
